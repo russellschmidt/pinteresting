@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 # Get the Bootstrap to make it pretty http://rubygems.org/gems/bootstrap-sass
 gem "bootstrap-sass"
 
+# add Devise for user authentication
+gem "devise", "~> 3.2.2"
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
