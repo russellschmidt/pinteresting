@@ -2,7 +2,13 @@
   <h1>Welcome to my app it is my app</h1>
   <p>Sign up today to change your life</p>
 
-  <p> <%= link_to "log in", "#", class:"btn btn-default btn-lg" %>
-      <%= link_to "sign up", "#", class:"btn btn-danger btn-lg" %>  
+  <% if user_signed_in? %>
+  <p>Welcome to Pinteresting</p>
+  <% else %>
+  <p> 
+    <%= link_to "log in", new_user_session_path, class:"btn btn-default btn-lg" %>
+    <%= link_to "sign up", new_user_registration_path, class:"btn btn-danger btn-lg" %>  
   </p>
+  <% end %>
+
 </div>
