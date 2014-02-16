@@ -1,14 +1,10 @@
 <div class="jumbotron center">
-  <h1>Welcome to my app it is my app</h1>
-  <p>Sign up today to change your life</p>
+  <h1>Welcome to Pinteresting</h1>
 
-  <% if user_signed_in? %>
-  <p>Welcome to Pinteresting</p>
-  <% else %>
+  <p>Upload photos and make it rain fun and good times in your eyes</p>
+
   <p> 
     <%= link_to "log in", new_user_session_path, class:"btn btn-default btn-lg" %>
     <%= link_to "sign up", new_user_registration_path, class:"btn btn-danger btn-lg" %>  
   </p>
-  <% end %>
-
 </div>
