@@ -6,7 +6,7 @@
       <%= link_to image_tag(pin.image.url(:medium)), pin %>
       <div class="panel-body">
         <p><%= pin.description %></p>
-        <p><%= pin.user.try(:email) %></p>
+        <p><%= pin.user.try(:name) %></p>
         <div class="actions">
           <%= link_to pin do%>
             <span class="glyphicon glyphicon-zoom-in"></span>Show
