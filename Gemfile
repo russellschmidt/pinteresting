@@ -40,6 +40,9 @@ gem "aws-sdk", "~> 1.16.1"
 # masonry gem (jQuery)
 gem "masonry-rails", "~> 0.2.0"
 
+# pagination with will_paginate
+gem "will_paginate", "~>3.0"
+gem 'will_paginate-bootstrap'
 
 group :production do
   gem 'pg'
