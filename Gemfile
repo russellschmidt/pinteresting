@@ -30,6 +30,7 @@ gem "bootstrap-sass"
 
 # add Devise for user authentication
 gem "devise", "~> 3.2.2"
+gem "paperclip", "~> 3.0"
 
 group :production do
   gem 'pg'
