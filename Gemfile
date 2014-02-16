@@ -30,7 +30,11 @@ gem "bootstrap-sass"
 
 # add Devise for user authentication
 gem "devise", "~> 3.2.2"
+# paperclip 
 gem "paperclip", "~> 3.0"
+
+# amazon web services
+gem "aws-sdk", "~> 1.16.1"
 
 group :production do
   gem 'pg'
